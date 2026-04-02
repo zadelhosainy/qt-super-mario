@@ -16,7 +16,7 @@ int main(int argc, char* argv[]) {
   Player player;
   scene.addItem(&player);
 
-  QGraphicsRectItem ground(0, 0, 300, 50);
+  QGraphicsRectItem ground(0, 0, 300, 30);
   ground.setBrush(Qt::darkGreen);
   ground.setPos(100, 250);
   scene.addItem(&ground);
